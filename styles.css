@@ -1,0 +1,39 @@
+body {
+    background: #092454;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    line-height: 1.4;
+    max-width: 95%;
+    font-size: 1.8rem;
+    margin: 40px auto;
+    padding: 2rem 1.5rem 1.5rem;
+    color: white;
+}
+.btn {
+    color: white;
+    background: red;
+}
+#info {
+    width: 40%;
+    height: 40%;
+}
+#informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: cadetblue;
+    color: black;
+    border-radius: 10px;
+}
+input {
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
